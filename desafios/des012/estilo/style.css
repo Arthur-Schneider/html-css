@@ -25,7 +25,7 @@ header{
 header h1{
     color: white;
     font-family: var(--fonte01);
-    font-size: 136px;
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
 }
@@ -44,35 +44,39 @@ header a:hover{
 }
 
 /*Configuração main*/
-
-/*Configuração das sections*/
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-size: 3.5vw;
 }
 
 #imagem01{
-    height: 800px;
+    height: 50vw;
     background-image: url('../imagens/background001.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    background-position: right center;
+}
+#imagem02{
+    background-image: url('../imagens/background002.jpg');
+    height: 50vw;
     background-size: cover ;
     background-attachment: fixed;
 }
 
-#imagem02{
-    background-image: url('../imagens/background002.jpg');
-    height: 800px;
-}
-
 .imagem p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     color: white;
     font-family: var(--fonte03);
     background-color: rgba(0, 0, 0, 0.514);
 }
+
 .normal{
     font-family: var(--fonte03);
+    box-shadow: 2px 5px 5px black;
 }
 
 /*Configuração footer*/
@@ -81,6 +85,8 @@ footer{
     text-align: center;
 }
 footer p{
+    font-family: var(--fonte02);
+    font-size: 1em;
     color: white;
     padding: 10px;
 }
