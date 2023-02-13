@@ -52,31 +52,42 @@ section{
     font-size: 3.5vw;
 }
 
-#imagem01{
+section p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    font-family: var(--fonte03);
+    box-shadow: 2px 5px 5px black;
+}
+
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+}
+
+section.imagem p{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-family: var(--fonte03);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#imagem01{
     height: 50vw;
     background-image: url('../imagens/background001.jpg');
     background-size: cover ;
     background-attachment: fixed;
     background-position: right center;
 }
-#imagem02{
+
+section#imagem02{
     background-image: url('../imagens/background002.jpg');
     height: 50vw;
     background-size: cover ;
     background-attachment: fixed;
-}
-
-.imagem p{
-    display: inline-block;
-    padding: 5px;
-    color: white;
-    font-family: var(--fonte03);
-    background-color: rgba(0, 0, 0, 0.514);
-}
-
-.normal{
-    font-family: var(--fonte03);
-    box-shadow: 2px 5px 5px black;
+    background-position: right center;
 }
 
 /*Configuração footer*/
