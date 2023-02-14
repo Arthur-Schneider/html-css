@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        table td, th{
+            border: 1px solid black;
+            width: 50px;
+            padding: 10px;
+        }
+        table th{
+            background-color: lightgray;
+        }
+        table tr:nth-child(even){
+            background-color: lightgray;
+        }
+        caption{
+            background-color: lightgray;
+            padding: 5px;
+            text-align: left;
+            padding-left: 15px;
+        }
+        .cproduto{
+            width: 150px;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tableas em telas pequenas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet corrupti nemo, dolore quis sed, eligendi possimus asperiores deleniti porro, nostrum vitae nulla? Voluptate quidem, cupiditate quam labore optio quis iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae aliquid sequi nesciunt beatae tenetur asperiores unde, facilis animi accusamus ex! In, necessitatibus hic eligendi recusandae tempora facilis quae pariatur!</p>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cproduto">
+            </colgroup>
+            <caption>Vendas dos produtos</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Celular</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Notebook</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Fone</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Alexa</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>14</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
